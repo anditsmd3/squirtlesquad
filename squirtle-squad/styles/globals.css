@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/fonts/Pokemon Hollow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'CustomFont', sans-serif;
+}
+
+.section-hover:hover {
+  box-shadow: 0 0 15px #f6f09f;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.music-button:hover {
+  box-shadow: 0 0 15px #f6f09f;
+  transition: box-shadow 0.3s ease-in-out;
+}
